@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="Portfolio for Capstone II course at George Brown College, Winter 2021 - graduating semester (6)">
+    <meta name="author" content="Barrington Venables">
+    <link rel="icon" href="assets/favicon.ico">
+    <title>Venables Portfolio</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+    <link href="css/custom-style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <!-- <a class="navbar-brand" href="#">Barrington Venables</a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" title="home"><span class="fas fa-home fa-lg"></span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="personal.html">Personal</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="credentials.html">Credentials</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="academic.html">Academic</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="professional.html">Professional</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+
+
+        <!-- Work Samples -->
+        <div class="p-4 rounded mb-5 mt-5">
+            <h2>Professional Work Samples</h2>
+            <hr>
+            
+            <!-- Expense Tracker -->
+            <div class="mt-5">
+                <a class="btn btn-primary float-right" title="View on Github" target="_blank"
+                    href="https://github.com/barrven/python-expenseTracker"><span class="fab fa-github-square fa-2x"></span></a>
+                <h4>Expense Tracker Using Python and Tkinter GUI</h4>
+                <ul>
+                    <li>Enter and store expenses per category per month</li>
+                    <li>View expenses per category for a given month, as well as average expenses per category for the year</li>
+                    <li>Above or below everage indicator</li>
+                    <li>Display percentage of expenses from each category out of the total
+                        monthly expenses</li>
+                    <li>Uses SQLite database</li>
+                    <li>Uses Tkinter Python OOP approach</li>
+                    <li>Uses Tkinter GUI</li>
+                </ul>
+                <h5>Video Demo</h5>
+                <div class="iframe-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/oZlvMcfwYgU" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                
+            </div>
+            <hr>
+
+            <!-- Client Notification Manager -->
+            
+            <div class="mt-5">
+                <a class="btn btn-primary float-right" title="View on Github" target="_blank"
+                    href="https://github.com/barrven/w2020-php-assignment2"><span class="fab fa-github-square fa-2x"></span></a>
+                <h4>Client Notification Manager</h4>
+                <p>This app could be used to notify clients about due dates that could be monthly,
+                    quarterly or annually. This application keeps track of clients and notifications that are assigned to them.
+                    It sets a schedule for each client and can send an automatic notification, either email or SMS on the appropriate
+                    date</p>
+                <p>This application has the following modules:</p>
+                <ul>
+                    <li>Clients manager – this module will be used to manage client’s information and facilities</li>
+                    <ul>
+                        <li>Adding a new client</li>
+                        <li>Modifying the client’s information</li>
+                        <li>Archiving a client</li>
+                    </ul>
+                    <li class="mt-2">Notification manager – this module provides functionalities</li>
+                    <ul>
+                        <li>Add new notification (email, SMS, Push Notifications</li>
+                        <li>Modify notification (enable /disable/ change name)</li>
+                    </ul>
+                    <li class="mt-2">Client’s Notification Manager - managing the type and frequency of sending client’s notifications.</li>
+                    <ul>
+                        <li>Create a notification for a client</li>
+                        <li>Manage client’s notifications</li>
+                        <li>Archive the client’s notifications.</li>
+                    </ul>
+                    <li class="mt-2">Additional Features</li>
+                    <ul>
+                        <li>The application is password protected and
+                        unauthorized access to any page is redirected to the login page showing an error message
+                        indicating login is required</li>
+                        <li>User management module that allows management of user accounts for users who will have access to the application</li>
+                        <li>Log all operations on all four modules (User, Client, Notification,
+                        ClientEvent) Storing user , module name, action, DateTime, IP</li>
+                        <li>Add database backup feature. When backup (all table/data) is complete authorized users should be
+                        able to download the backup file</li>
+                        <li>An authorized user can restore the database from backup
+                        file</li>
+                    </ul>
+                </ul>
+
+                <h5>Video Demo</h5>
+                <div class="iframe-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/gXufhSRqsBc" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                
+            </div>
+            <hr>
+
+            <!-- React CRUD  -->
+
+            <div class="mt-5">
+                <a class="btn btn-primary float-right" title="View on Github" target="_blank"
+                    href="https://github.com/barrven/101189284_lab_assignment_1"><span class="fab fa-github-square fa-2x"></span></a>
+                <h4>React CRUD With Springboot API</h4>
+                <p>Simple CRUD app with Bootstrap styling that uses rest API running with Springboot and SQL.</p>
+
+                <h5>Video Demo</h5>
+                <div class="iframe-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4s-neuKYrZ4" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                
+            </div>
+
+            <!-- Android CRUD, Maps -->
+            <div class="mt-5">
+
+                <a class="btn btn-primary float-right" title="View on Github" target="_blank"
+                    href="https://github.com/barrven/ScavengerHunt"><span class="fab fa-github-square fa-2x"></span></a>
+                <h4>Points of Interest Android App</h4>
+                <ul>
+                    <li>Create Retrieve, Update and Delete information about points on a map, and people in your team</li>
+                    <li>Uses Location Services and Uses Google Maps API</li>
+                    <li>Launch email, launch twitter intents</li>
+                    <li>Local storage with SQLite</li>
+                </ul>
+                
+                <h5>Video Demo</h5>
+                <div class="iframe-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/nSKwLjCCpdk" title="YouTube video player"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+    </main>
+
+
+
+    <footer class="footer bg-dark text-white">
+        <div class="container text-center">
+            &copy; 2021 Barrington Venables
+        </div>
+    </footer>
+
+    <script src="js/combine-hover.js"></script>
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

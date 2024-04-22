@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section{
+    background-color: rgba(90, 83, 83, 0.548);
+    border: 1px solid aqua;
+    border-radius: 12px;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+section h1{
+    text-align: center;
+    color: azure;
+}
